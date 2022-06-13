@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href="/styles/games.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            
+            <div class="backarrow" onclick="window.history.back()">
+                <img src="assets/images/Backarrow.png" alt="" width="45" height="45" >
+            </div>
+
+            <h1>ROCK PAPER SCISSORS</h1>
+
+        </header>
+
+        <br>
+
+        <div class = "score-board">
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+            <div id = "user-label" class="badge">User</div>
+            <div id = "computer-label" class="badge">Comp</div>
+        </div>
+
+        <br> <br>
+        
+    <div class="d-flex justify-content-evenly">
+        <div class="choices">
+            <h2>PLAYER 1</h2>
+            <div class="choice" id="r">
+                <img src="assets/images/batu.png" alt="" width="100" height="100">
+            </div>
+            <div class="choice" id="p">
+                <img src="assets/images/kertas.png" alt="" width="100" height="100">
+            </div>
+            <div class="choice" id="s">
+                <img src="assets/images/gunting.png" alt="" width="100" height="100">
+            </div>
+        </div>
+
+        <div class="result">
+            <p style="color: rgb(175, 35, 35);">VS</p>
+        </div>        
+
+        <div class="choicescom">
+            <h2>COM</h2>
+            <div class="choicecom" id="b">
+                <img src="assets/images/batu.png" alt="" width="100" height="100">
+            </div>
+            <div class="choicecom" id="k">
+                <img src="assets/images/kertas.png" alt="" width="100" height="100">
+            </div>
+            <div class="choicecom" id="g">
+                <img src="assets/images/gunting.png" alt="" width="100" height="100">
+            </div>
+        </div>
+
+    </div>
+
+       
+        <div class="refresh" onclick="window.location.reload()">
+            <img src="assets/images/refresh.png" alt="" width="45" height="45">
+        </div>
+
+<!-- SCRIPT to script.js -->
+<script src="/scripts/script.js"></script>
+
+  </body>
+
+
+</html>
+

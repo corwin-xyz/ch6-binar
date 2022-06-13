@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "corwin",
+    "password": "corwin123",
+    "database": "binarch6",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "corwin",
+    "password": "corwin123",
+    "database": "binarch6_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "corwin",
+    "password": "corwin123",
+    "database": "binarch6_prod",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

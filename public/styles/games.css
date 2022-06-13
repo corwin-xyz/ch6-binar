@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9C835F;
+}
+
+header {
+  padding: 15px;
+  font-size: 22px;
+}
+
+.backarrow {
+  left: 200px;
+}
+
+header > h1 {
+  color: #F9B23D;
+  text-align: center;
+}
+
+.score-board {
+  margin: 12px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  width: 150px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -35px;
+}
+
+.choices {
+  position: absolute;
+  margin: 20px auto;
+  width: 299px;
+  height: 94px;
+  left: 296px;
+  top: 162px;
+  display: flex-column;
+  text-align: center;
+}
+
+.choices > h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.choice {
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 10px;  
+  margin: 10px 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: white;
+}
+
+.choicescom {
+  position: absolute;
+  margin: 20px auto;
+  width: 299px;
+  height: 94px;
+  left: 865px;
+  top: 162px;
+  display: flex-column;
+  text-align: center;
+}
+
+.choicescom > h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.choicecom {
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 10px;  
+  margin: 10px 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+
+.result {
+  font-size: 40px;
+  color: white;
+}
+
+.result > p {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.refresh {
+  position: absolute;
+  width: 77px;
+  height: 71px;
+  left: 665px;
+  top: 643px;
+
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+.refresh:hover {
+  cursor: pointer;
+  background: white;
+}
+
+
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
+
+.white-glow {
+  border: 4px solid white;
+  box-shadow: 0 0 10px white;
+}
